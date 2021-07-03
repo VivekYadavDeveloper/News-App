@@ -1,6 +1,8 @@
-# headline
+# Today Headline.
 
 A new Flutter project.
+Which Is Made For Only Indian Peoples.In This News App We Are Showing Only Indain Latest News.
+It's Still In Progress I Lauched It ASAP In Playstore.  
 
 ## Getting Started
 
