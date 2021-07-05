@@ -26,7 +26,10 @@ class _SplashScreenState extends State<SplashScreen> {
               children: [
                 Center(
                   child: Container(
-                    child: Image.asset('assets/gifs/splashScreen1.gif'),
+                    child: Image.asset(
+                      'assets/gifs/splashScreen1.gif',
+                      height: 100.h,
+                    ),
                   ),
                 ),
                 Padding(
@@ -35,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     alignment: Alignment.bottomCenter,
                     child: Text(
                       "Made In India",
-                      style: TextStyle(fontSize: 20.sp, color: Colors.white),
+                      style: TextStyle(fontSize: 20.sp, color: Colors.black),
                       //"Made In Collaboration With Darshit jain",
                       //style: TextStyle(
                       //  fontFamily: "Dancing Script",

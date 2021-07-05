@@ -27,12 +27,12 @@ class CustomList extends StatelessWidget {
         margin: EdgeInsets.all(12.0),
         padding: EdgeInsets.all(8.0),
         decoration: BoxDecoration(
-          color: Colors.amber,
-          borderRadius: BorderRadius.circular(15.0),
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20.0),
           boxShadow: [
             BoxShadow(
-              color: Colors.black12,
-              blurRadius: 3.0,
+              color: Colors.black38,
+              blurRadius: 7.0,
             ),
           ],
         ),
@@ -41,38 +41,44 @@ class CustomList extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              height: 200.0,
+              height: 250.0,
               width: double.infinity,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: NetworkImage(urlToImage), fit: BoxFit.cover),
-                borderRadius: BorderRadius.circular(8.0),
-              ),
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Container(
-              padding: EdgeInsets.all(6.0),
-              decoration: BoxDecoration(
-                color: Colors.blue,
-                borderRadius: BorderRadius.circular(25.0),
-              ),
-              child: Text(
-                "Not Implemented Source.Name",
-                style: TextStyle(
-                  color: Colors.blueAccent,
+                  image: NetworkImage(urlToImage),
+                  fit: BoxFit.fill,
                 ),
+                borderRadius: BorderRadius.circular(20.0),
               ),
             ),
             SizedBox(
               height: 10.0,
             ),
-            Text(
-              title,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 12.0,
+            // Container(
+            //   padding: EdgeInsets.all(6.0),
+            //   decoration: BoxDecoration(
+            //     color: Colors.blue,
+            //     borderRadius: BorderRadius.circular(25.0),
+            //   ),
+            //   child: Text(
+            //     "Not Implemented Source.Name",
+            //     style: TextStyle(
+            //       color: Colors.blueAccent,
+            //     ),
+            //   ),
+            // ),
+            SizedBox(
+              height: 10.0,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text(
+                title,
+                style: TextStyle(
+                  color: Colors.black87,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20.0,
+                ),
               ),
             ),
           ],

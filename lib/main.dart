@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       home: SplashScreen(),
       routes: <String, WidgetBuilder>{
         "Splash Screen": (BuildContext context) => SplashScreen(),
-        "Home Page": (BuildContext context) => HomePage()
+        "Home Page": (BuildContext context) => HomePage(),
       },
     );
   }
