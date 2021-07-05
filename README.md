@@ -1,8 +1,8 @@
 # Today Headline.
 
-A new Flutter project.
-Which Is Made For Only Indian Peoples.In This News App We Are Showing Only Indain Latest News.
-It's Still In Progress I Lauched It ASAP In Playstore.  
+A New Flutter Project Made With Lots Of Love This App Is "Made In Collaboration With @TheAmazingDeveloper.
+This App Is Made In India.In This App Showing The World Top Headlines.
+The App Is Still In Progress I Lauched It ASAP In Playstore.  
 
 ## Getting Started
 
