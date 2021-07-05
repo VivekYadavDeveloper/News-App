@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import 'Mode.dart';
+import 'package:headline/HomePage.dart';
+import 'package:headline/SplashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,13 +14,17 @@ class MyApp extends StatelessWidget {
     //GetX is an extra-light and powerful solution for Flutter.
     //It combines high-performance state management, intelligent dependency injection,
     //and route management quickly and practically.
-    return GetMaterialApp(
-      // Remove the debug banner
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
+      // Theme mode depends on device settings at the beginning.
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      // Theme mode depends on device settings at the beginning.
-      home: HomeScreen(),
+
+      home: SplashScreen(),
+      routes: <String, WidgetBuilder>{
+        "Splash Screen": (BuildContext context) => SplashScreen(),
+        "Home Page": (BuildContext context) => HomePage()
+      },
     );
   }
 }

@@ -1,19 +1,15 @@
+// ** MY ARTICLE PAGE **
 import 'package:flutter/material.dart';
 
-import 'package:headline/artical_model.dart';
-
 class Articlepage extends StatelessWidget {
-  final Article article;
-  const Articlepage({
-    Key? key,
-    required this.article,
-  });
+  final title, urlToImage, description;
+  const Articlepage({this.title, this.urlToImage, this.description});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(article.title),
+        title: Text(title),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -24,7 +20,7 @@ class Articlepage extends StatelessWidget {
             width: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  image: NetworkImage(article.urlToImage), fit: BoxFit.cover),
+                  image: NetworkImage(urlToImage), fit: BoxFit.cover),
               borderRadius: BorderRadius.circular(8.0),
             ),
           ),
@@ -38,7 +34,7 @@ class Articlepage extends StatelessWidget {
               borderRadius: BorderRadius.circular(25.0),
             ),
             child: Text(
-              article.source.name,
+              "Not Implemented Source.Name",
               style: TextStyle(
                 color: Colors.blueAccent,
               ),
@@ -48,7 +44,7 @@ class Articlepage extends StatelessWidget {
             height: 10.0,
           ),
           Text(
-            article.description,
+            description,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 12.0,

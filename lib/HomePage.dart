@@ -6,12 +6,12 @@ import 'package:headline/CustomList.dart';
 import 'package:headline/api_services.dart';
 import 'package:headline/artical_model.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomePage extends StatefulWidget {
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _HomePageState extends State<HomePage> {
   List<Article> articles = <Article>[];
   bool _isLoading = true;
 

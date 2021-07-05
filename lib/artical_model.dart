@@ -1,3 +1,5 @@
+/*
+** YOUR ARTICLE MODEL **
 //Creating The Article Model.
 import 'source.dart';
 
@@ -36,4 +38,24 @@ class Article {
       content: json["content"] as String,
     );
   }
+}
+*/
+
+// ** MY ARTICLE MODEL **
+class Article {
+  String author;
+  String title;
+  String description;
+  String url;
+  String urlToImage;
+  String publishedAt;
+  String content;
+  Article(
+      {required this.author,
+      required this.title,
+      required this.description,
+      required this.url,
+      required this.urlToImage,
+      required this.publishedAt,
+      required this.content});
 }
