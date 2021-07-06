@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: Container(
                     child: Image.asset(
                       'assets/gifs/splashScreen1.gif',
-                      height: 100.h,
+                      height: 10.h,
                     ),
                   ),
                 ),
