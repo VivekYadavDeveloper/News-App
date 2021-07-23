@@ -1,7 +1,9 @@
 # Today Headline.
 
-A New Flutter Project Made With Lots Of Love This App Is "Made In Collaboration With @TheAmazingDeveloper.
+A New Flutter Project Made With Lots Of Love This App Is "Made In Collaboration With [@TheAmazingDeveloper](https://github.com/TheAmazingDeveloper).
+
 This App Is Made In India.In This App Showing The World Top Headlines.
+
 The App Is Still In Progress I Lauched It ASAP In Playstore.  
 
 ## Getting Started
